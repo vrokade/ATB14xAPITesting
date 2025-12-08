@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="C:/Users/vishal.rokade/Desktop/TestingAcademy_Basic/ATB14xAPITesting">
+
+        <groups>
+            <run>
+                <include name="sanity">
+                </include>
+                <include name="smoke">
+                </include>
+            </run>
+        </groups>
+
+
+        <classes>
+            <class name="org.example.TestNG_AdvancedExamples.APITesting_Groups_TestNg">
+            </class>
+        </classes>
+    </test>
+</suite>
