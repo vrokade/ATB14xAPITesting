@@ -16,7 +16,8 @@ public class APITesting_BeforeTest {
         System.out.println("Before GET Booking");
     }
 
-    @Test
+    //it will always run
+    @Test(alwaysRun = true)
     public void TEST_PUT(){
         System.out.println("PUT Request");
     }
